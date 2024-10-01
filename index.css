@@ -1,0 +1,45 @@
+.container{
+  width: 600px;
+  height:600px;
+  background-color: rgb(193, 187, 187);
+  margin: 50px auto;
+  text-align: center;
+}
+.heading{
+  padding-top: 30px;
+}
+.p{
+  width: 300px;
+  height: 100px;
+  background-color: antiquewhite;
+  text-align: center;
+  margin: auto;
+  
+}
+p{
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs{
+  display: flex;
+  margin-top: 30px;
+}
+.mainInput{
+  margin-top: 20px;
+  height:50px;
+  text-align: center;
+ 
+}
+#output{
+  margin-top: 80px;
+}
+button{
+  margin-top:50px;
+  width: 100px;
+  height: 40px;
+  background-color: blue;
+  color: wheat;
+  border-radius: 10px;
+  margin-left: 20px;
+}

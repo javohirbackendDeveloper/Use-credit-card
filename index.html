@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Use credit card</title>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>Use credit card</h1>
+    </div>
+  <div class="p">
+    <p id="outputCard">0</p>
+  </div>
+   <div class="inputs">
+    <div class="inputAdd ">
+      <label for="adding">Kartaga pul qo'shish</label>
+      <input type="number"  class = "mainInput"  id="addMoney" placeholder="pul qo'shish...">
+    </div>
+    <div class="inputRemove ">
+      <label for="remove">Kartadan pul yechish</label>
+      <input type="number" class = "mainInput" id="removeMoney" placeholder="pul olish...">
+    </div>
+   </div>
+    <p id="output">#</p>
+    <button onclick="work()">Pul qo'shish</button>
+    <button onclick="work2()">Pul yechish</button>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
